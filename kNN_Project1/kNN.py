@@ -26,10 +26,10 @@ Modify:
 """
 def createDataSet():
     # 四组二维特征
-    group = np.array([[1,101],[5,89],[108,5],[115,8]])
+    group = np.array([[1,101],[5,89],[108,5],[115,8]]) 
     # 四组特征的标签
-    labels = ['爱情片','爱情片','动作片','动作片']
-    return group, labels
+    labels = ['爱情片','爱情片','动作片','动作片'] # ['A','A','B','B']
+    return group, labels # 返回特征和标签
 
 
 """
